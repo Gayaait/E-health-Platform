@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+   font-family: 'Poppins', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+}
+
+#title {
+   color: #c43d41;
+   background: linear-gradient(to bottom, #ffffff, #f9e5f0);
+}
+
+#title a {
+
+   color: #f67a7a;
+}
+
+.no1{
+   padding: 0% 6%;
+   background: #ffffff;
+}
+
+.navbar{
+   padding: 0.5rem 0.1rem;
+}
+
+.navbar-brand {
+   font-family: Ubuntu;
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+@media (min-width: 992px){
+   .navbar-expand-lg .navbar-collapse {
+       display: flex!important;
+       flex-basis: auto;
+       flex-direction: row-reverse;
+   }
+}
+
+.icon-link {
+   font-size: 1.2rem;
+   font-family: Montserrat;
+   text-decoration: none;
+}
+
+.nav-item {
+   padding: 0 18px;
+}
+
+
+.container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding:20px;
+   padding-bottom: 60px;
+}
+
+.container .content{
+   text-align: center;
+}
+
+.container .content h3{
+   font-size: 30px;
+   color:#333;
+}
+
+.container .content h3 span{
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   padding:0 15px;
+}
+
+.container .content h1{
+   font-size: 50px;
+   color:#333;
+}
+
+.container .content h1 span{
+   color:crimson;
+}
+
+.container .content p{
+   font-size: 25px;
+   margin-bottom: 20px;
+}
+
+.container .content .btn{
+   display: inline-block;
+   padding:10px 30px;
+   font-size: 20px;
+   background: #333;
+   color:#fff;
+   margin:0 5px;
+   text-transform: capitalize;
+}
+
+.container .content .btn:hover{
+   background: #c43d41;
+}
+
+.form-container{
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 60px;
+   padding: 4% 6% 2.5%;
+   background: linear-gradient(to bottom, #ffffff, #f9e5f0);
+}
+
+.form-container form{
+   padding:20px;
+   border-radius: 5px;
+   box-shadow: 0 5px 10px rgba(0,0,0,.1);
+   background: #fff;
+   text-align: center;
+   width: 500px;
+}
+
+.form-container form h3{
+   font-size: 30px;
+   text-transform: uppercase;
+   margin-bottom: 10px;
+   color:#333;
+}
+
+.form-container form input,
+.form-container form select{
+   width: 100%;
+   padding:10px 15px;
+   font-size: 17px;
+   margin:8px 0;
+   background: #eee;
+   border-radius: 5px;
+}
+
+.form-container form select option{
+   background: #fff;
+}
+
+.form-container form .form-btn{
+   background: #fbd0d9;
+   color:crimson;
+   text-transform: capitalize;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+   background: crimson;
+   color:#fff;
+}
+
+.form-container form p{
+   margin-top: 10px;
+   font-size: 20px;
+   color:#333;
+}
+
+.form-container form p a{
+   color:crimson;
+}
+
+.form-container form .error-msg{
+   margin:10px 0;
+   display: block;
+   background: crimson;
+   color:#fff;
+   border-radius: 5px;
+   font-size: 20px;
+   padding:10px;
+}
+
+.card {
+    background-color: #e9e7f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    width: 35%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+.header {
+	display: flex;
+	margin-bottom: 5px;
+}
+
+.left {
+	flex: 1;
+}
+
+.left img {
+	height: 100%;
+	width: 100%;
+	border-radius: 5%;
+	object-fit: cover;
+}
+
+.right {
+    flex: 2;
+    margin-left: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    background-color: #d0d1ea;
+    color: #35397b;
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    color: #35397b;
+
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+  
+p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.partie_deux{
+    height: 400px;
+}
